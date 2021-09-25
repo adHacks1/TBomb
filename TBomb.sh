@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo A PROGRAMME BY AADITHYAN.D (ad studio)
 detect_distro() {
     if [[ "$OSTYPE" == linux-android* ]]; then
             distro="termux"
