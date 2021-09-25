@@ -1,5 +1,6 @@
 #!/bin/bash
 echo A PROGRAMME BY AADITHYAN.D (ad studio)
+color 02
 detect_distro() {
     if [[ "$OSTYPE" == linux-android* ]]; then
             distro="termux"
@@ -41,7 +42,7 @@ banner() {
     echo -e "\e[1;32m           Telegram:  \e[0m"
     echo -e "\e[4;32m   YouTube: h \e[0m"
     echo " "
-    echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
+    echo "NOTE: Kindly move to the PIP version Of getThem for more stability."
     echo " "
 }
 
@@ -98,7 +99,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By SpeedX > .update
+    echo This Script Was Made By Aadithyan.D > .update
     echo 'Requirements Installed....'
     pause
 fi
